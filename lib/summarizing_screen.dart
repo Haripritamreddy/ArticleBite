@@ -46,7 +46,7 @@ class _SummarisingScreenState extends State<SummarisingScreen> {
       }
 
 
-      String apiKey = 'oVRLoiKB2g77eJ1UrzZLWaYny1XjuuoAGrZxBr6K4uU';
+      String apiKey = 'YOUR-API-KEY-HERE';
       String model = 'gpt-3.5-turbo-0613';
 
 
