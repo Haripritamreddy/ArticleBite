@@ -5,7 +5,6 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'article_details_screen.dart';
 import 'summarizing_screen.dart';
-import 'boring_report.dart';
 import 'about.dart';
 
 class Article {
@@ -144,23 +143,6 @@ class _MainScreenState extends State<MainScreen> {
                 },
               ),
               SizedBox(height: 20.0),
-              ListTile(
-                title: Text(
-                  'The Boring Report',
-                  style: GoogleFonts.martianMono(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 26.0,
-                  ),
-                ),
-                contentPadding: EdgeInsets.symmetric(horizontal: 56.0),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => WebViewContainer()),
-                  );
-                },
-              ),
             ],
           ),
         ),
