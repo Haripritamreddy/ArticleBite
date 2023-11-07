@@ -37,7 +37,7 @@ ArticleBite is a Flutter-based mobile application designed to help you quickly a
 
 ## Download the App
 
-You can download the latest version of ArticleBite from the [Releases](https://github.com/Haripritamreddy/ArticleBite/releases/tag/App) section. 📥
+You can download the latest version of ArticleBite from the [Releases](https://github.com/Haripritamreddy/ArticleBite/releases/tag/Apps) section. 📥
 
 ## Support the Project
 
